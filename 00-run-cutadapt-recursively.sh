@@ -1,5 +1,5 @@
-#!/bin/bash
-source activate qiime2-2019.4
+#!/bin/bash -i
+conda activate cutadapt-env 
 
 for item in 00-adapter-fastas/* ; do 
 
