@@ -42,7 +42,7 @@ chmod u+x run.sh
 ./run.sh
 ```
 
-7. Now copy the output folder to a directory below the location of your demultiplexed data, naming it `00-adapter-fastas`. Then enter that directory. For example let's say your partially demultiplexed data (i.e. a bunch of different fastqs, each corresponding to a different index) is in `/home/inigo/mydemuxdata/00-raw`. Then you would do the following:
+7. Now copy the output folder to a directory below the location of your demultiplexed data, naming it `00-adapter-fastas`. Then enter the directory below `00-adapter-fastas`. For example let's say your partially demultiplexed data (i.e. a bunch of different fastqs, each corresponding to a different index) is in `/home/inigo/mydemuxdata/00-raw`. Then you would do the following:
 
 ```
 cp -r output /home/inigo/mydemuxdata/00-adapter-fastas
