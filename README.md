@@ -52,7 +52,7 @@ cd /home/inigo/mydemuxdata/
 8. Now you should be ready to run the script contained in the demux-notes repo, but you may have to edit the input/output folders to suit your needs. But assuming your raw data is in a folder called `00-raw` and you don't mind your demultiplexed data going into a folder called `demultiplexed` you can just run it as follows:
 
 ```
-cp <full path to your demux-notes dowloaded repo>/00-run-cutadapt-recursively.sh
+cp <full path to your demux-notes dowloaded repo>/00-run-cutadapt-recursively.sh .
 chmod u+x 00-run-cutadapt-recursively.sh
 ./00-run-cutadapt-recursively.sh
 ```
